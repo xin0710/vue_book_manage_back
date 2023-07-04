@@ -1,19 +1,3 @@
-## ☀️新手必读
-
-+ 本项目拥有完整的API后台接口文档（文尾)(重点⭐)
-+ 项目部署视频正在录制
-+ 如果项目对您有所帮助，可以Star⭐一下，受到鼓励的我会继续加油。
-+ [项目在线演示地址](https://abc.xiaobaitiao.club/)
-+ [项目前端地址](https://gitee.com/falle22222n-leaves/vue_-book-manage-system)
-+ [项目后端地址](https://gitee.com/falle22222n-leaves/vue_-book-manage-system_backend)
-+ [项目部署视频](https://www.bilibili.com/video/BV1314y1Z7SS/?pop_share=1&vd_source=e40a9464b71684502f289cff3f51514f)
-
-## ☀️个人介绍
-
-![img](http://xxx.xiaobaitiao.club/project/微信加好友.png)
-
-![img](http://xxx.xiaobaitiao.club/project/QQ加好友.jpg)
-
 ## ☀️技术栈介绍
 
 ### ☃️前端主要技术栈
@@ -57,17 +41,13 @@
 
 + 主要使用Vue2和SpringBoot2实现
 + 项目权限控制分别为：用户借阅，图书管理员，系统管理员
-+ 开发工具：IDEA2022.1.3(真不推荐用eclipse开发，IDEA项目可以导出为eclipse项目，二者不影响，但需要自己学教程)
-+ [IDEA->Eclipse](https://blog.csdn.net/HD202202/article/details/128076400)
-+ [Eclipse->IDEA](https://blog.csdn.net/q20010619/article/details/125096051)
++ 开发工具：IDEA2022.1.3(真不推荐用eclipse开发，IDEA项目可以导出为eclipse项目，二者不影响，但需要自己学教程) 
+
 
 + 学校老师硬性要求软件的话，还是按要求来。可以先问一下是否可以选择其他软件开发。
 + 用户账号密码：  相思断红肠 123456
 + 图书管理员账号密码:   admin 123456
 + 系统管理员账号密码:   root 123456
-+ [前端样式参考](https://gitee.com/mingyuefusu/tushuguanlixitong)  感谢原作者**明月复苏**
-
-+ 遇到交互功能错误，或者页面无法打开，请用开发者工具F12查看请求和响应状态码情况，当然可能小白不懂，那也没关系，可以加我**QQ：909088445**。白天上课，晚上有空才能回答，感谢体谅！⭐⭐⭐
 
 ## ☀️项目详细介绍（亮点)
 
@@ -87,7 +67,7 @@
 
 ### ⭐用户模块功能介绍
 
-![img](http://xxx.xiaobaitiao.club/project/%E7%94%A8%E6%88%B7%E6%A8%A1%E5%9D%97%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D.png)
+
 
 + 图书查询功能：分页构造器缓解数据过大压力，后端可设置请求数防止爬虫请求数过大，服务器负载过大。模糊查询进行字段搜索。表格均可导出PDF和EXCEL。
 + 读者规则功能：查询现有的借阅规则，借阅规则包括：借阅编号，可借阅图书数量，可借阅天数，可借阅图书馆，过期扣费/天。
@@ -101,7 +81,7 @@
 
 ### ⭐图书管理员模块功能介绍
 
-![image-20230311151434774](http://xxx.xiaobaitiao.club/project/%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86%E5%91%98%E6%A8%A1%E5%9D%97%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D%E5%9B%BE.png)
+
 
 + 借阅图书: 图书管理员输入借阅证号(用户)和要借的图书编号和当前的时间，点击借阅。
 + 归还图书: 输入图书编号查看图书是否逾期，并且可以设置违规信息，然后选择是否归还图书
@@ -112,7 +92,6 @@
 
 ### ⭐系统管理员模块功能介绍
 
-![image-20230311151453931](http://xxx.xiaobaitiao.club/project/%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86%E5%91%98%E6%A8%A1%E5%9D%97%E4%BB%8B%E7%BB%8D%E5%9B%BE.png)
 
 + 书籍管理: 可以查询当前的所有图书，显示图书编号，图书昵称，作者，图书馆，分类，位置，状态，描述。可以进行添加，修改，删除图书。利用分页构造器实现批量查询。利用模糊查询实现图书搜索功能。利用插件实现PDF和EXCEL导出。
 + 书籍类型: 显示查询当前的所有图书类型，可以进行添加，修改，删除图书类型，利用分页构造器实现批量查询，缓解数据压力。
@@ -253,81 +232,11 @@
 | create_time  | datetime         | 创建时间 Java注解 JsonFormatter       |
 | update_time  | datetime         | 更新时间 Java注解 JsonFormatter       |
 
-## 🐼功能演示图
-
-### 用户模块功能图
-
-**首页轮播图演示**
-
-![image-20230311151755217](http://xxx.xiaobaitiao.club/project/%E9%A6%96%E9%A1%B5%E8%BD%AE%E6%92%AD%E5%9B%BE%E6%BC%94%E7%A4%BA.png)
-
-**图书查询演示**
-
-![image-20230311151815350](http://xxx.xiaobaitiao.club/project/%E5%9B%BE%E4%B9%A6%E6%9F%A5%E8%AF%A2%E6%BC%94%E7%A4%BA.png)
-
-**读者规则演示**
-
-![image-20230311151837692](http://xxx.xiaobaitiao.club/project/%E8%AF%BB%E8%80%85%E8%A7%84%E5%88%99%E6%BC%94%E7%A4%BA.png)
-
-**查看公告演示**
-
-![image-20230311151858285](http://xxx.xiaobaitiao.club/project/%E6%9F%A5%E7%9C%8B%E5%85%AC%E5%91%8A%E6%BC%94%E7%A4%BA.png)
-
-**个人信息演示**
-
-![image-20230311151918353](http://xxx.xiaobaitiao.club/project/%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%E6%BC%94%E7%A4%BA.png)
-
-**借阅信息演示**
-
-![image-20230311151939885](http://xxx.xiaobaitiao.club/project/%E5%80%9F%E9%98%85%E4%BF%A1%E6%81%AF%E6%BC%94%E7%A4%BA.png)
-
-**违章信息演示**
-
-![image-20230311151958147](http://xxx.xiaobaitiao.club/project/%E8%BF%9D%E7%AB%A0%E4%BF%A1%E6%81%AF%E6%BC%94%E7%A4%BA.png)
-
-**读者留言演示**
-
-![image-20230311152043122](http://xxx.xiaobaitiao.club/project/%E8%AF%BB%E8%80%85%E7%95%99%E8%A8%80%E6%BC%94%E7%A4%BA.png)
-
-### 图书管理员功能图
-
-**借阅图书演示**
-
-![image-20230311152118721](http://xxx.xiaobaitiao.club/project/%E5%80%9F%E9%98%85%E5%9B%BE%E4%B9%A6%E6%BC%94%E7%A4%BA.png)
-
-**归还图书演示**
-
-![image-20230311152136821](http://xxx.xiaobaitiao.club/project/%E5%BD%92%E8%BF%98%E5%9B%BE%E4%B9%A6%E6%BC%94%E7%A4%BA.png)
-
-**借书报表演示**
-
-![image-20230311152220983](http://xxx.xiaobaitiao.club/project/%E5%80%9F%E4%B9%A6%E6%8A%A5%E8%A1%A8.png)
-
-**还书报表演示**
-
-![image-20230311152251587](http://xxx.xiaobaitiao.club/project/%E8%BF%98%E4%B9%A6%E6%8A%A5%E8%A1%A8.png)
-
-**发布公告演示**
-
-![image-20230311152310736](http://xxx.xiaobaitiao.club/project/%E5%8F%91%E5%B8%83%E5%85%AC%E5%91%8A%E6%BC%94%E7%A4%BA.png)
-
-### 系统管理员功能图
-
-+ 由于篇幅受限，系统管理员功能图只展示一个图表的功能。
-
-**系统管理演示**
-
-![image-20230311152338284](http://xxx.xiaobaitiao.club/project/%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86.png)
-
 ## 🐼部署项目
-
-![image-20230311152411864](http://xxx.xiaobaitiao.club/project/%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE%E6%BC%94%E7%A4%BA1.png)
 
 + 可以下载ZIP压缩包或者使用克隆(Git clone)
 + 复制http或者ssh的链接（github建议ssh,gittee都可以)
 + 在D盘新建一个文件夹，点击进入该文件夹，右键Git Bash Here
-
-![image-20230311152442211](http://xxx.xiaobaitiao.club/project/%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE%E6%BC%94%E7%A4%BA2.png)
 
 + 还没有下载Git或者不会Git的建议先看基础教程（30分钟左右)
 
@@ -338,13 +247,13 @@
 + 成功拉取项目（前端后端都是如此)
 + 前端项目注意依赖下载使用npm install 或者 yarn install （Vscode或者Webstorm)
 + 后端项目注意maven依赖下载（IDEA(推荐)或者Ecplise)
-+ 前端npm 镜像源建议淘宝镜像源，后端maven镜像源推荐阿里云镜像源（非必选，但更换后下载快速)
++ 前端npm 镜像源建议淘宝镜像源，后端maven镜像源推荐阿里云镜像源（非必选，但更换后下载快速) 
 
 ## 🐼部署项目问题
 
 ⭐
 
-+ 乱码问题 项目采用的UFT-8
++ 乱码问题 项目采用的UFT-8 
 + 一般出现乱码就是UTF-8和GBK二者相反
 + 请百度IDEA乱码和Eclipse乱码问题(描述清楚即可)
 
@@ -358,26 +267,6 @@
 
 + 先阅读文档再进行问题的查询或者提问
 + 提问有技巧，模糊的发言，让高级架构师找BUG也无从下手
-
-⭐
-
-+ **QQ：909088445**
-+ 一般晚上在线，建议先自己寻找问题！！！
-+ 开源免费， 定制化和调试项目付费。
-
-## 🐼项目API接口文档
-
-+ 接口文档篇幅过大
-+ 本来想完全采用RESTFUL风格，做到一半忘记了
-+ 看清楚文档的基准地址
-+ 要API后端接口文档详细内容和数据库结构+内容一起的，将前后端**star**⭐的截图加我QQ：**909088445**发我即可领取~感谢支持
-
-## 🐷其他
-
-+ 个人博客地址: https://luoye6.github.io/
-+ 个人博客采用Hexo+Github托管
-+ 采用butterfly主题可以实现定制化
-+ 推荐有空闲时间的，可以花1-2天搭建个人博客用于记录笔记。
 
 ## **版本迭代**
 
